@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewProject", menuName = "Portfolio/Project")]
 public class ProjectDataSO : ScriptableObject
 {
-    [TextArea] public string description;
+    [TextArea(3, 10)] public string description;
     public Sprite sprite;
 
     [Header("Links")]

@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1476cf6b6c25fe4f93fee32cebfc21a, type: 3}
   m_Name: Etiqa Grab
   m_EditorClassIdentifier: 
-  description: This is an exploration game developed as my final year project with
-    my group members. I was mainly tasked with the programming of the game.
+  description: This is a 2D drag-and-drop mobile game developed with my team for
+    the Etiqa+ Minigame Project competition. The game was designed to promote insurance
+    awareness through interactive gameplay, blending fun mechanics with educational
+    themes. Our group achieved 2nd Runner-Up in the competition, and I contributed
+    to both programming and game design aspects, focusing on user interaction and
+    gameplay flow.
   sprite: {fileID: 21300000, guid: a4a9e11f78bb3a3479752aae41075c3e, type: 3}
   trailerLink: https://youtu.be/OElJWpZkJT0?si=b0CwEn9tiu5e6wWX
   githubLink: https://github.com/Midori2404/Etiqa-Grab

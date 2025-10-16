@@ -196,8 +196,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6397278719558025042}
   m_HandleRect: {fileID: 1763859490832390920}
   m_Direction: 2
-  m_Value: 1.0000007
-  m_Size: 0.7086615
+  m_Value: 1
+  m_Size: 0.70866144
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d179266be351ab143a2941ebde6bdfc8, type: 3}
+  m_Sprite: {fileID: 5987169704966256756, guid: 58b74f67f225d684dbbd406eacf79feb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1402,7 +1402,7 @@ MonoBehaviour:
         m_MethodName: ShowProject
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 9893eaa21d27b7e449d65944980e8346, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 2a94501da0208a64b8830b0a8875179f, type: 2}
           m_ObjectArgumentAssemblyTypeName: ProjectDataSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2092,7 +2092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00012207031}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5127213548293154183

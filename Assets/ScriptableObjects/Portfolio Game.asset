@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1476cf6b6c25fe4f93fee32cebfc21a, type: 3}
+  m_Name: Portfolio Game
+  m_EditorClassIdentifier: 
+  description: This is a 2D side-scrolling game developed in Unity to demonstrate
+    my programming and design skills. The project features player movement, collision
+    detection, and UI management systems. It is designed to create a smooth and engaging
+    gameplay experience. This game serves as a personal showcase of my ability to
+    design, code, and refine core mechanics while maintaining strong attention to
+    gameplay flow and user experience.
+  sprite: {fileID: 5987169704966256756, guid: 58b74f67f225d684dbbd406eacf79feb, type: 3}
+  trailerLink: 
+  githubLink: https://github.com/Midori2404/Portfolio-Game

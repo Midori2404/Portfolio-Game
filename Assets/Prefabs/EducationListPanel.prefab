@@ -829,7 +829,6 @@ GameObject:
   - component: {fileID: 2006129656246072552}
   - component: {fileID: 49763622332542027}
   - component: {fileID: 1551828272046427898}
-  - component: {fileID: 7914063171641324291}
   - component: {fileID: 8639918850137486322}
   m_Layer: 5
   m_Name: EducationListPanel
@@ -898,23 +897,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7914063171641324291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5236205773065332259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dae1968a06ba37a4c9703b9488696c71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  titleText: {fileID: 7316863043231204727}
-  descriptionText: {fileID: 9201197231688332959}
-  projectImage: {fileID: 0}
-  buttonContainer: {fileID: 0}
-  buttonPrefab: {fileID: 4995986736119643467, guid: d49667d77b1e2fb45b11ecff076525cd, type: 3}
 --- !u!114 &8639918850137486322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,7 +909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2c9c33316ab304aa97373fd37d8222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelName: ProjectDetailsDisplay
+  panelName: EducationListPanel
   animationDuration: 0.3
   scaleCurve:
     serializedVersion: 2

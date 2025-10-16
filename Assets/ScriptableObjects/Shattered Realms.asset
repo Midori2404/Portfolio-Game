@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1476cf6b6c25fe4f93fee32cebfc21a, type: 3}
   m_Name: Shattered Realms
   m_EditorClassIdentifier: 
-  description: This is a multiplayer top down roguelike game where me and my groupmates
-    developed during our third year degree.
+  description: This is a multiplayer top-down roguelike game created with my group
+    during the third year of my degree. Built in Unity using Photon PUN for connectivity.
+    The project allowed players to connect and cooperate in procedurally generated
+    levels. My main responsibilities included implementing multiplayer functionality,
+    gameplay logic, and level building while ensuring synchronization and stability
+    across networked sessions.
   sprite: {fileID: 21300000, guid: 49125474b238c014a888c7e55d27c836, type: 3}
   trailerLink: https://youtu.be/NLPkv9Ze9go
   githubLink: https://github.com/Midori2404/Shattered-Realms

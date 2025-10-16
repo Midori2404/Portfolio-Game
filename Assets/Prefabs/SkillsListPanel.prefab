@@ -875,7 +875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2c9c33316ab304aa97373fd37d8222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelName: ProjectListPanel
+  panelName: SkillsListPanel
   animationDuration: 0.3
   scaleCurve:
     serializedVersion: 2

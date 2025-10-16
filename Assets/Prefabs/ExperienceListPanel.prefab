@@ -809,7 +809,6 @@ GameObject:
   - component: {fileID: 1712854519883986791}
   - component: {fileID: 72592208207533076}
   - component: {fileID: 3608483179040706879}
-  - component: {fileID: 4507981344136358292}
   - component: {fileID: 4767593930397953144}
   m_Layer: 5
   m_Name: ExperienceListPanel
@@ -878,23 +877,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4507981344136358292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5153217717948700184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dae1968a06ba37a4c9703b9488696c71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  titleText: {fileID: 4269459750991425048}
-  descriptionText: {fileID: 5183187165849819875}
-  projectImage: {fileID: 0}
-  buttonContainer: {fileID: 0}
-  buttonPrefab: {fileID: 4995986736119643467, guid: d49667d77b1e2fb45b11ecff076525cd, type: 3}
 --- !u!114 &4767593930397953144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -907,7 +889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2c9c33316ab304aa97373fd37d8222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelName: ProjectDetailsDisplay
+  panelName: ExperienceListPanel
   animationDuration: 0.3
   scaleCurve:
     serializedVersion: 2
