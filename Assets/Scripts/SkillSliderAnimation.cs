@@ -6,7 +6,7 @@ using System.Collections;
 public class SkillSliderAnimation : MonoBehaviour
 {
     [SerializeField] private Slider slider;
-    [SerializeField] private TextMeshProUGUI percentageText;
+    [SerializeField] private TMP_Text percentageText;
 
     private float targetValue;
     private Coroutine animationCoroutine;

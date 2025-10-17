@@ -47,7 +47,6 @@ public class SkillsListDisplay : MonoBehaviour
 
             // skills
             var sortedSkills = group.OrderByDescending(s => s.percentage);
-
             foreach (var skill in sortedSkills)
             {
                 var skillGO = Instantiate(skillDetailPrefab, contentParent);
@@ -62,8 +61,6 @@ public class SkillsListDisplay : MonoBehaviour
     private void GenerateSkillDetails(GameObject skillGO, SkillDataSO skill)
     {
         var nameText = skillGO.transform.Find("SkillName")?.GetComponent<TextMeshProUGUI>();
-        //var slider = skillGO.transform.Find("SkillSlider")?.GetComponent<Slider>();
-        //var percentText = skillGO.transform.Find("MasteryPercentage")?.GetComponent<TextMeshProUGUI>();
 
         if (nameText != null) nameText.text = skill.name;
 

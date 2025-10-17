@@ -20,7 +20,7 @@ public class GameStateManager : MonoBehaviour
         }
         Instance = this;
 
-        DontDestroyOnLoad(gameObject); // Keep alive between scenes
+        DontDestroyOnLoad(gameObject);
     }
 
     public void SetState(GameState newState)
@@ -28,7 +28,7 @@ public class GameStateManager : MonoBehaviour
         if (newState == CurrentState) return;
 
         CurrentState = newState;
-        OnStateChanged?.Invoke(CurrentState); // Notify listeners
+        OnStateChanged?.Invoke(CurrentState);
     }
 
     public bool IsState(GameState state) => CurrentState == state;

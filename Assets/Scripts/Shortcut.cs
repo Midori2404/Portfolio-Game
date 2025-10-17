@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Shortcut : MonoBehaviour
 {
@@ -17,18 +18,15 @@ public class Shortcut : MonoBehaviour
 
     public void TeleportToTarget(GameObject target)
     {
-        if (player == null || target == null)
-        {
-            Debug.LogWarning("ShortcutTeleport: Missing player or target reference.");
-            return;
-        }
+        EventSystem.current.SetSelectedGameObject(null);
 
         player.position = target.transform.position;
-        Debug.Log($"Teleported player to {target.name} at {target.transform.position}");
     }
 
     public void OpenLink(string url)
     {
+        EventSystem.current.SetSelectedGameObject(null);
+
         Application.OpenURL(url);
     }
 }

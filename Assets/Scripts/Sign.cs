@@ -34,7 +34,6 @@ public class SignInteraction : MonoBehaviour
             basePosition = uiCanvas.transform.localPosition;
         }
 
-        // Default state
         arrowUI.SetActive(true);
         interactUI.SetActive(false);
     }

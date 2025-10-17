@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class UIManager : MonoBehaviour
 {
@@ -15,12 +16,11 @@ public class UIManager : MonoBehaviour
             return;
         }
         Instance = this;
-        DontDestroyOnLoad(gameObject); // optional if you want UI to persist across scenes
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
     {
-        // Close all panels at start
         foreach (var panel in panels)
         {
             panel.Close();
@@ -44,6 +44,7 @@ public class UIManager : MonoBehaviour
             Debug.LogWarning($"UIManager: No panel found with name {panelName}");
         }
 
+        EventSystem.current.SetSelectedGameObject(null);
         GameStateManager.Instance.SetState(GameState.UI);
     }
 
@@ -51,6 +52,8 @@ public class UIManager : MonoBehaviour
     {
         currentPanel.Close();
         currentPanel = null;
+
+        EventSystem.current.SetSelectedGameObject(null);
         GameStateManager.Instance.SetState(GameState.Playing);
     }
 }

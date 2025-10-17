@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class UIPanel : MonoBehaviour
 {
     [SerializeField] private string panelName;
-    [SerializeField] private float animationDuration = 0.3f; // how fast it scales
+    [SerializeField] private float animationDuration = 0.3f;
     [SerializeField] private AnimationCurve scaleCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
     [SerializeField] private ScrollRect scrollRect;
 

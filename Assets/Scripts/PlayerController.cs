@@ -113,6 +113,7 @@ public class PlayerController : MonoBehaviour
     {
         canAttack = false;
         animator.SetTrigger("attack");
+        AudioManager.instance.PlayInstance("SwordSwing");
     }
 
     public void ResetAttack()

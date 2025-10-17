@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Contacts : MonoBehaviour
 {
@@ -27,11 +28,15 @@ public class Contacts : MonoBehaviour
 
     public void OpenLink(string url)
     {
+        EventSystem.current.SetSelectedGameObject(null);
+
         Application.OpenURL(url);
     }
 
     public void ComposeEmail()
     {
+        EventSystem.current.SetSelectedGameObject(null);
+
         if (string.IsNullOrEmpty(recipientEmail))
         {
             Debug.LogWarning("Recipient email not set.");
